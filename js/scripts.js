@@ -1,5 +1,7 @@
 $(document).ready(function(){
-  event.preventDefault()
+  ("form#language").submit(function(event){
+
+  });
 
 
 
