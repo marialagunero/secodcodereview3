@@ -2,6 +2,8 @@
 
 ## _***Second Code Review***_
 
+ ### _[Program Language Selector](https://marialagunero.github.io/secodcodereview3/)_
+
  ## _***By: Maria Lagunero***_
 
 ## **Description**
@@ -10,7 +12,7 @@ _This is my second code review in the Ruby/React class. This is a project about 
 
 ## **Program Setup Instructions**
 
-_Open in Browser_
+_Click  on link above  and open in Browser_
 
 ## **Support and Contact Details**
 
