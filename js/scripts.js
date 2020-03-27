@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  ("form#language").submit(function(event){
+  $("form#language").submit(function(event){
     var colorChoice = parseInt($("#colorChoice").val());
     var foodChoice = parseInt($("#foodChoice").val());
     var drinkChoice =parseInt($("#drinkChoice").val());
