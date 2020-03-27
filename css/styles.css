@@ -2,3 +2,18 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
+
+#ruby {
+ display: none;
+}
+
+#csharp {
+  display: none;
+
+}
+
+#js {
+  display: none;
+
+}
