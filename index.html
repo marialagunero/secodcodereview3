@@ -10,11 +10,13 @@
     <title>Program Language Suggester</title>
   </head>
   <body>
-    <h1>Pick your code language!</h1>
     <div class="container">
+      <div class="jumbotron">
+      <h1>Pick your code language!</h1>
+      </div>
       <form id="language">
         <div>
-          <label for="name">Name:</label>
+          <label for="name">Full Name:</label>
           <input id="name" class="form-control form-control-sm" type="text">
           <label for="dob">Date of Birth:</label>
           <input id="dob" class="form-control form-control-sm" type="text">
@@ -50,23 +52,21 @@
           <option value=2>The Power of Habit</option>
           <option value=3>Brave New World</option>
         </select>
-
         <br>
-        <button class="btn btn-success">CLICK!</button>
+        <button class="btn btn-success">Your Language!</button>
         
-
-        <div id="ruby">
-          <p>Ruby</p>
+        <div class="jumbotron" id="ruby">
+          <p class= "bg-danger">Cool! You got Ruby.</p>
           <img src="img/ruby.jpeg">
         </div>
 
-        <div id="csharp">
-          <p>C#</p>
+        <div class= "jumbotron" id="csharp">
+          <p class="bg-primary">Wow! You got C#.</p>
           <img src="img/csharp.jpeg">
         </div>
 
-        <div id="js">
-          <p>JS</p>
+        <div class="jumbotron" id="js">
+          <p class="bg-warning">Right on! You got JS.</p>
           <img src="img/javascript.jpeg">
         </div>
       </form>
